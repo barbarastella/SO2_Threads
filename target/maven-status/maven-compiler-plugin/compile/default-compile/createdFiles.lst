@@ -1,4 +1,5 @@
 banheiroConcorrenteSemaforo\Banheiro.class
+projetoJantarFamintos\Faminto.class
 comRunnable\MainRunnable.class
 primosDessincronizado\MainPrimos.class
 banheiroConcorrenteMutex\Banheiro.class
@@ -6,7 +7,9 @@ banheiroConcorrenteMutex\Pessoa.class
 comThread\MinhaThread.class
 primosSincronizado\Producer.class
 primosDessincronizado\ThreadPrimos.class
+projetoJantarFamintos\Garfo.class
 banheiroConcorrenteMutex\Main.class
+projetoJantarFamintos\JantarDosFamintos.class
 comRunnable\MinhaTarefa.class
 comThread\MainThread.class
 primosSincronizado\Worker.class
