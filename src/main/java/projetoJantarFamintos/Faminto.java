@@ -58,17 +58,15 @@ public class Faminto implements Runnable {
                         temEsquerdo = false;
                     }
                 }
-            } else { // Filosofos ímpares tentam pegar o garfo direito primeiro
+            } else {
                 if (!garfoDireito.isOcupado()) {
                     garfoDireito.pegar();
                     temDireito = true;
 
-                    // Após pegar o garfo direito, tenta pegar o esquerdo
                     if (!garfoEsquerdo.isOcupado()) {
                         garfoEsquerdo.pegar();
                         temEsquerdo = true;
                     } else {
-                        // Solta o garfo direito se o esquerdo estiver ocupado
                         garfoDireito.soltar();
                         temDireito = false;
                     }
